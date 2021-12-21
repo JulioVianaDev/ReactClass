@@ -19,3 +19,6 @@ const  logValue = value => console.log(value);
 const logFnResult = fnParam => console.log(fnParam);
 
 logFnResult(fn);
+
+
+const handleFnExecution = controlFnExec(fn);
